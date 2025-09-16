@@ -363,8 +363,10 @@ if EXPANSION >= LE_EXPANSION_CATACLYSM then
 
         -- Items
         [93337] = true, -- Champion of Ramkahen
-        [93806] = true, -- Darnassus Champion
         [93795] = true, -- Stormwind Champion
+        [93806] = true, -- Darnassus Champion
+        [93825] = true, -- Orgrimmar Champion
+        [93828] = true, -- Silvermoon Champion
         [97341] = true, -- Guild Champion
 
         -- Customes
@@ -555,6 +557,8 @@ if EXPANSION >= LE_EXPANSION_SHADOWLANDS then
 
         -- Items
         [345545] = true, -- Flayedwing Toxin
+        [368510] = true, -- So'leash's Secret Technique
+        [368512] = true, -- So'leash's Secret Technique
     }
     import(data, blacklist)
 end
@@ -807,6 +811,10 @@ if Filger.isRetail then
         [459058] = true, -- Miniature
         [459059] = true, -- Massive
         [459254] = true, -- Loader Signal
+
+        -- Professions
+        [457674] = true, -- Duskthread Lining
+        [457666] = true, -- Dawnthread Lining
 
         --------------------------------------------------
         -- Patch 11.0.2
