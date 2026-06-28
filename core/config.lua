@@ -29,7 +29,7 @@ local all = Filger.all or {}
 
 local size = 35
 local spacing = 5
-local xOffset, yOffset = 200, 39
+local xOffset, yOffset = 239, 39
 
 Filger.config = {
     ["general"] = {

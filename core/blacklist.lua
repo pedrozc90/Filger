@@ -893,6 +893,16 @@ if Filger.isRetail then
         --------------------------------------------------
         [1244018] = true, -- Tazavesh, the Vailed Market, Hard Mode
         [1246366] = true, -- Stree Smart
+
+        --------------------------------------------------
+        -- Legion Remix
+        --------------------------------------------------
+        [1232454] = true, -- Initife Power
+        [1238465] = true, -- Heroic World Tier
+        [1213439] = true, -- WoW Remix: Legion
+
+        [440361] = true, -- Timeless Scroll of the Wild
+        
     }
 
     import(data, blacklist)
